@@ -1,10 +1,10 @@
 def my_collect(collection)
   i = 0 
-  empty = [] 
+  new_array = [] 
       while collection.length > i 
-      yield collection[i] 
-      yield +=1 
+      new_array << yield collection[i] 
+      i +=1 
     end
   end
-  empty 
+  new_array 
 end 
